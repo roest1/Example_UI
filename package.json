@@ -1,6 +1,6 @@
 {
-     "name": "temp",
-     "homepage": "https://roest1.github.io/Example_UI",
+     "name": "example_ui",
+     "homepage": "https://roest1.github.io/example_ui",
      "private": true,
      "version": "0.0.0",
      "type": "module",
