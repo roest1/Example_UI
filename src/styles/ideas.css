@@ -1,0 +1,84 @@
+/* High Fidelity CSS for Chart Ideas Component */
+
+/* General Container Styles */
+.chart-ideas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f0f2f5;
+    font-family: 'Arial, sans-serif';
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Chart Wrapper Styles */
+.chart-wrapper {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    width: 100%;
+    max-width: 800px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.chart-wrapper:hover {
+    transform: scale(1.02);
+}
+
+/* Title Styles */
+h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Chart Styles */
+.chartjs-render-monitor {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Highcharts Specific Styles */
+.highcharts-container {
+    width: 100% !important;
+    height: 400px !important;
+    overflow: hidden;
+}
+
+/* Minimal Pie Chart Styles */
+.pie-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .chart-ideas-container {
+        padding: 1rem;
+    }
+
+    .chart-wrapper {
+        padding: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .chart-wrapper {
+        padding: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+} 
